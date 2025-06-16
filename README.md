@@ -7,7 +7,7 @@ Está diseñado para estudiantes, autodidactas y profesionales que desean compre
 
 ## 📚 Tabla de Contenido
 
-- [🧠 Fundamentos de Redes](./01_Fundamentos_de_Redes/)
+- [🧠 Fundamentos de Redes](./01_Introducción/)
 - [🌐 Modelo OSI y TCP/IP](./02_Modelo_OSI_y_TCPIP/)
 - [🔗 Dispositivos de Red](./03_Dispositivos_de_Red/)
 - [🔌 Capa Física y Medios](./04_Capa_Fisica_y_Medios/)
