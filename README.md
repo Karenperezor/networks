@@ -1,48 +1,48 @@
-# 📡 Guía Completa de Redes - Huawei Certified ICT Associate (HCIA)
+# 🌐 Curso de Redes - Huawei ICT Academy
 
-Este repositorio tiene como propósito reunir y organizar material de estudio, diagramas, prácticas, comandos y explicaciones sobre redes informáticas enfocados al contenido de certificación **HCIA Routing & Switching** de Huawei.  
-Está diseñado para estudiantes, autodidactas y profesionales que desean comprender desde los fundamentos hasta la configuración práctica de redes.
-
----
-
-## 📚 Tabla de Contenido
-
-- [🧠 Fundamentos de Redes](./01_Introducción/)
-- [🌐 Modelo OSI y TCP/IP](./02_Modelo_OSI_y_TCPIP/)
-- [🔗 Dispositivos de Red](./03_Dispositivos_de_Red/)
-- [🔌 Capa Física y Medios](./04_Capa_Fisica_y_Medios/)
-- [📶 LAN, MAN y WAN](./05_Tipos_de_Redes/)
-- [👥 Topologías y Servicios](./06_Topologias_y_Servicios/)
-- [🛠️ Configuración Básica Huawei](./07_Configuracion_Huawei/)
-- [📄 Comandos CLI Huawei](./08_Comandos_CLI_Huawei/)
-- [🧪 Laboratorios y Simulaciones](./09_Laboratorios_Simulaciones/)
-- [🔐 Seguridad en Redes](./10_Seguridad/)
-- [📝 Referencias y Recursos](./11_Referencias_y_Recursos/)
+¡Bienvenid@ a mi repositorio de notas del curso de **Redes** impartido por **Huawei ICT Academy**!  
+Aquí encontrarás resúmenes, diagramas, tablas y ejemplos organizados por tema.  
+El objetivo es reforzar el aprendizaje y tener una guía clara y práctica.
 
 ---
 
-## 👩‍💻 Créditos
+## 📚 Índice de Contenidos
 
-Creado por: **Karen Pérez**  
-Curso: Huawei HCIA - Redes  
-Año: 2025  
-Universidad / Centro: *(añade aquí si aplica)*
-
----
-
-## ⚙️ Herramientas Utilizadas
-
-- [📁 Visual Studio Code](https://code.visualstudio.com/)
-- [🖼️ Draw.io / Diagrams.net](https://www.diagrams.net/)
-- [📸 Capturas y contenidos de Huawei Learning Space](https://e.huawei.com/en/talent)
-- [📑 Git y GitHub](https://github.com/)
+| Módulo | Tema | Estado |
+|--------|------|--------|
+| ✅ 1 | [🔹 Básicos de Redes de Computadoras](./1-basics.md) | Completado |
+| ✅ 2.1 | [🔹 Protocolos Principales de Redes](./2.1-core-protocols.md) | Completado |
+| ⭕ 2.2 | [🔹 Protocolo de Transmisión de Datos entre Nodos](./2.2-node-transmission.md) | En progreso |
+| ⭕ 2.3 | [🔹 Protocolo de Contención de Enlace](./2.3-link-contention.md) | En progreso |
+| ⭕ 2.4 | [🔹 Protocolo de Compartición de Recursos de Red](./2.4-resource-sharing.md) | En progreso |
+| ⭕ 3.1 | [🔹 Equipos de Red y Gestión de Configuración](./3.1-equipment-config.md) | Pendiente |
+| ⭕ 3.2 | [🔹 Dispositivos de Interconexión](./3.2-interconnection.md) | Pendiente |
+| ⭕ 3.3 | [🔹 Gestión de Dispositivos de Red](./3.3-device-management.md) | Pendiente |
+| ⭕ 4 | [🔹 Guía de Laboratorio](./4-lab-guide.md) | Pendiente |
 
 ---
 
-## 🧾 Licencia
+## 🛠 Herramientas y Formato
 
-Este proyecto está bajo la Licencia MIT.  
-
-Consulta el archivo [LICENSE](./LICENSE) para más detalles.
+- Lenguaje: `Markdown`
+- Control de versiones: `Git`
+- Plataforma: `GitHub`
+- Documentación y notas organizadas por módulos y temas.
+- Diagramas e imágenes alojados en la carpeta `./imagenes/`.
 
 ---
+
+## 💡 Objetivo del Repositorio
+
+> Crear una base de conocimiento clara, práctica y accesible para repasar y consultar rápidamente temas clave del curso de Redes.
+
+---
+
+## 📎 Créditos
+
+Curso ofrecido por: **Huawei ICT Academy**  
+Estudiante: **Karen P.**  
+Repositorio personal para fines académicos 🎓
+
+---
+
