@@ -1,47 +1,62 @@
 <h1 align="center">📘 1. Básicos de Redes de Computadoras</h1>
 
 <p align="center">
-  <em>Resumen del modelo OSI, arquitectura de red, clasificación y encapsulación de datos.</em>
+  <em>Conceptos fundamentales, clasificación de redes, arquitectura y modelos de referencia OSI e Internet.</em>
 </p>
 
 ---
 
 ## 📌 Overview
 
-> 🔹 This section describes the basic concepts, classification, architecture, and data encapsulation processes involved in computer networks.
+> Esta sección describe los conceptos básicos, clasificación, arquitectura y los procesos de encapsulación de datos utilizados en las redes de computadoras.
 
 ---
 
-## 🧠 Conceptos Clave
+## 🌐 Clasificación de Redes
+![Clasificacion de redes](images/wan.png)
 
-- **Red de computadoras**: Conjunto de dispositivos interconectados que comparten recursos y datos.
-- **Clasificación de redes**: Según su alcance o tamaño (LAN, MAN, WAN).
-- **Arquitectura de red**: Diseño lógico y físico de la red.
-- **Encapsulación de datos**: Proceso de empaquetado de información en capas para su transmisión.
+| Tipo de red | Alcance aproximado | Descripción |
+|-------------|--------------------|-------------|
+| **LAN** (Local Area Network) | Hasta 10 km | Red de área local, conecta dispositivos dentro de un edificio o campus. |
+| **MAN** (Metropolitan Area Network) | 10 km a 100 km | Red de área metropolitana, conecta varias LANs en una ciudad. |
+| **WAN** (Wide Area Network) | Más de 100 km | Red de área amplia, conecta redes a nivel nacional o mundial. |
 
 ---
 
-## 🧱 Modelo OSI (Open Systems Interconnection)
+## 🧱 Modelo de Referencia OSI (7 capas)
 
-El modelo OSI se compone de **7 capas**, cada una con funciones específicas que ayudan en la comunicación de datos a través de una red.
+![Modelo Osci](images/modeloOSCI.png)
 
 | Capa | Nombre | Función principal |
 |------|--------|-------------------|
-| 7 | Aplicación | Interacción directa con el usuario |
-| 6 | Presentación | Formateo y cifrado de datos |
-| 5 | Sesión | Gestión de sesiones de comunicación |
-| 4 | Transporte | Control de flujo y errores (ej: TCP/UDP) |
-| 3 | Red | Enrutamiento de paquetes (ej: IP) |
-| 2 | Enlace de datos | Direccionamiento físico y acceso al medio (MAC) |
-| 1 | Física | Transmisión de bits por el medio físico |
+| 7 | Aplicación | Interfaz entre los servicios de red y el usuario. |
+| 6 | Presentación | Formato de datos, cifrado/descifrado, compresión. |
+| 5 | Sesión | Establece, mantiene y termina sesiones entre aplicaciones. |
+| 4 | Transporte | Control de flujo, detección de errores, puertos. |
+| 3 | Red | Direccionamiento lógico y selección de ruta. |
+| 2 | Enlace de datos | Conexiones lógicas, direccionamiento físico (MAC), corrección de errores. |
+| 1 | Física | Transmisión y desconexión de señales físicas. |
 
 ---
 
-## 🔁 Proceso de Transmisión de Datos
+## 🌐 Modelo de Referencia de Internet (5 capas)
 
-1. **Encapsulación**: Los datos se envuelven con información de cada capa OSI.
-2. **Transmisión**: Los datos viajan por la red desde el emisor al receptor.
-3. **Desencapsulación**: El receptor va eliminando las capas hasta obtener los datos originales.
+| Capa | Equivalencia OSI | Función |
+|------|------------------|---------|
+| Aplicación | Capas 5, 6 y 7 | Servicios a la aplicación del usuario |
+| Transporte | Capa 4 | Comunicación extremo a extremo |
+| Internet | Capa 3 | Direccionamiento IP y enrutamiento |
+| Enlace de datos | Capa 2 | Acceso al medio y direccionamiento físico |
+| Física | Capa 1 | Transmisión de bits |
+
+---
+
+## 🔄 Proceso de Encapsulación de Datos
+
+![Proceso de encapsulacion](images/encapsulacion.png)
+
+Cuando se transmite información, cada capa del modelo añade su propia cabecera al paquete de datos.  
+El proceso se invierte en el receptor (desencapsulación).
 
 ```plaintext
 Aplicación -> Presentación -> Sesión -> Transporte -> Red -> Enlace de Datos -> Física
