@@ -55,10 +55,9 @@
 
 ![Proceso de encapsulacion](images/encapsulacion.png)
 
-# 🛰️ Modelo OSI según Huawei: Encapsulación y Desencapsulación
+# 🛰️ Encapsulación y Desencapsulación
 
-## 📚 Introducción
-Huawei utiliza el modelo OSI como **guía para diagnóstico** y explicación de procesos como la **encapsulación y desencapsulación** de datos. Cada capa **añade su propio encabezado** al enviar, y lo **elimina al recibir**.
+ Cada capa **añade su propio encabezado** al enviar, y lo **elimina al recibir**.
 
 ---
 
@@ -86,7 +85,7 @@ Huawei utiliza el modelo OSI como **guía para diagnóstico** y explicación de 
 
 ---
 
-## 🧱 Encapsulación según imagen de Huawei
+## 🧱 Encapsulación
 
 | Capa OSI          | Datos / Encabezado añadidos                                    | Unidad resultante    |
 |-------------------|----------------------------------------------------------------|-----------------------|
@@ -98,7 +97,7 @@ Huawei utiliza el modelo OSI como **guía para diagnóstico** y explicación de 
 
 ---
 
-## 📶 Puntos clave según Huawei
+## 📶 Puntos clave 
 
 - **Capa 3 (Red)**: Protocolos de enrutamiento como OSPF, BGP.
 - **Capa 2 (Enlace de datos)**: Control de acceso al medio (MAC), importante en switches y Wi-Fi.
@@ -108,16 +107,16 @@ Huawei utiliza el modelo OSI como **guía para diagnóstico** y explicación de 
 
 ---
 
-## 🧪 Ejemplo práctico Huawei: Envío de archivo por FTP
+## 🧪 Ejemplo práctico: Envío de archivo por FTP
 
-1. 📄 Aplicación crea el archivo.
-2. 🧱 TCP divide el archivo en segmentos y los numera.
-3. 🧭 IP define la ruta (agrega encabezado de red).
-4. 📦 Ethernet lo empaqueta con dirección MAC.
-5. 🔌 Se transmite como señales por el medio físico (fibra, cobre, etc).
-6. 🔁 Switch reenvía el frame al router.
-7. 🛰️ Router consulta su tabla de rutas y lo envía al siguiente salto.
-8. 📥 El receptor desencapsula cada capa y reconstruye el archivo.
+1. Aplicación crea el archivo.
+2. TCP divide el archivo en segmentos y los numera.
+3. IP define la ruta (agrega encabezado de red).
+4. Ethernet lo empaqueta con dirección MAC.
+5. Se transmite como señales por el medio físico (fibra, cobre, etc).
+6. Switch reenvía el frame al router.
+7. Router consulta su tabla de rutas y lo envía al siguiente salto.
+8. El receptor desencapsula cada capa y reconstruye el archivo.
 
 ---
 
